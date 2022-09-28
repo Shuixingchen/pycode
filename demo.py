@@ -1,9 +1,8 @@
 import sys
+import utils.match
 
 def main():
-    print("检查素材...")
-    list = [1,2,3]
-    type(list)
-    print(type(list).__name__ == "list")
-
+    res = utils.match.Min(3,6)
+    print(res)
+    
 main()
